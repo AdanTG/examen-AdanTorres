@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar curso</title>
+</head>
+<body>
+<h1>Editar curso online</h1>
+
+<form action="/Cursos" method="get">
+    <p>
+        <label for="id">ID:</label><br>
+        <input type="number" id="id" name="id" value="1">
+    </p>
+    <p>
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo" value="Java desde cero">
+    </p>
+    <p>
+        <label for="plataforma">Plataforma:</label><br>
+        <input type="text" id="plataforma" name="plataforma" value="Udemy">
+    </p>
+    <p>
+        <label for="duracion">Duración:</label><br>
+        <input type="number" id="duracion" name="duracion" value="40">
+    </p>
+    <p>
+        <label for="nivel">Nivel:</label><br>
+        <input type="text" id="nivel" name="nivel" value="Básico">
+    </p>
+    <button type="submit">Guardar cambios</button>
+    <a href="/Cursos">Cancelar</a>
+</form>
+</body>
+</html>
